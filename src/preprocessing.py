@@ -1,20 +1,9 @@
-import pandas as pd
 import data_loader
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 from config import TEST_SIZE, RANDOM_SEED
 
 
 def preprocess_data(file_path):
-    """
-    Preprocess the data by loading it and performing necessary cleaning steps.
-
-    Parameters:
-    file_path (str): The path to the CSV file.
-
-    Returns:
-    pd.DataFrame: A DataFrame containing the preprocessed data.
-    """
     # Load the data
     df = data_loader.load_data(file_path)
     
