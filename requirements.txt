@@ -1,0 +1,6 @@
+numpy>=1.24,<3
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.7,<1.9
+matplotlib>=3.7
+diffprivlib>=0.6
